@@ -6,7 +6,7 @@ namespace MultiplayerARPG.GameData.Model.Playables
 {
 
     [System.Serializable]
-    public struct BlockAnimations : IBlockAnims
+    public struct BlockAnimations
     {
         public WeaponType blockWeaponType;
 

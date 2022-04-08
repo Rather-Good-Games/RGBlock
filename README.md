@@ -10,12 +10,12 @@
 
 **Author:** RatherGood1
 
-**Version**: 0.1: 7 Apr 22
+**Version**: 0.2: 7 Apr 22
 
 **Example code**
 
 Possible example can use modified ShooterPlayerCharacterController replace RMB with thi line to activate/deactivate block.
 
 ```csharp 
-PlayerCharacterEntity.BlockingComponent?.Block(!PlayerCharacterEntity.IsSheathed && GetSecondaryAttackButton()); 
+PlayerCharacterEntity.CallServerBlocking(!PlayerCharacterEntity.IsSheathed && GetSecondaryAttackButton());
 ```
